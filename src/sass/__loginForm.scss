@@ -1,0 +1,44 @@
+.loginForm__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   border: 1px solid;
+  padding: 30px;
+  flex-direction: column;
+  border-radius: 12px;
+  width: 30%;
+  gap: 24px;
+  -webkit-box-shadow: 0px -1px 15px 1px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 0px -1px 15px 1px rgba(0, 0, 0, 0.54);
+  box-shadow: 0px -1px 15px 1px rgba(0, 0, 0, 0.54);
+  background-color: #fff;
+  form {
+    // width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    height: 25vh;
+    margin: 0 auto;
+    input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 4px;
+      border: 1px solid #333;
+      transition: 0.3s;
+      &:hover {
+        box-shadow: 2px 1px 1px 2px rgb(211, 209, 209);
+      }
+    }
+    button {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 4px;
+      background-color: #1b1b1b;
+      color: #fff;
+      &:disabled {
+        background-color: #333;
+      }
+    }
+  }
+}

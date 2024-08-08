@@ -1,0 +1,36 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "malibu",
+      "price": "26000",
+      "category": "car",
+      "description": "zor mashina",
+      "image": "https://asacar.uz/uploads/car_color/KK/KK/KE/1632743563.png"
+    },
+    {
+      "id": "2916",
+      "title": "qwdqw",
+      "price": "12345",
+      "description": "wqdew",
+      "image": "qwere",
+      "category": "2wew"
+    },
+    {
+      "id": "5372",
+      "title": "fewwfew",
+      "price": "1234",
+      "description": "qwewfd",
+      "image": "qwef",
+      "category": "1q2wer"
+    },
+    {
+      "id": "400d",
+      "title": "wddd",
+      "price": "234",
+      "description": "1234",
+      "image": "123ed",
+      "category": "sd"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+.sidebar {
+  // background-color: #333;
+  // height: 120vh;
+  // position: fixed;
+  // left: 0;
+  // top: 0;
+  // bottom: 0;
+  // width: 300px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #454545;
+  color: #fff;
+  padding: 30px 16px;
+  overflow: hidden;
+  width: 300px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    li {
+      width: 100%;
+      padding: 16px;
+      transition: 0.3s;
+      &:hover {
+        background-color: #c0bdbd;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #fff;
+        font-size: 22px;
+      }
+      button {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 22px;
+      }
+    }
+  }
+}
